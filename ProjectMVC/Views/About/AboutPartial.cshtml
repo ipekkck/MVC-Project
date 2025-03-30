@@ -1,0 +1,31 @@
+﻿
+<button class=" btn btn-danger" data-toggle="modal" data-target="#Modal1">
+    New About Enter Page
+</button>
+
+<div class="modal" id="Modal1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">About Text Entering</h2>
+            </div>
+            <form method="post" action="/About/AddAbout/">
+                <div class="modal-body">
+                    <label>About Text 1</label>
+                    <input type="text" name="AboutDetails" class="form-control" />
+                    <br />
+                    <label>About Text 2</label>
+                    <input type="text" name="AboutDetails2" class="form-control" />
+                    <br />
+                    <label>About Image 1</label>
+                    <input type="text" name="AboutImage" class="form-control" />
+                    <br />
+                    <label>About Image 2</label>
+                    <input type="text" name="AboutImage2" class="form-control" />
+                    <br />
+                    <button class=" btn btn-danger">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
